@@ -86,7 +86,7 @@ for i in range(len(videoid_list)):
         tname = response['items'][0]['snippet']['title']
         vc = response['items'][0]['statistics']['viewCount']
         lc = response['items'][0]['statistics']['likeCount']
-        dlc = response['items'][0]['statistics']['dislikeCount']
+        #dlc = response['items'][0]['statistics']['dislikeCount']
         cc = response['items'][0]['statistics']['commentCount']
         pA = response['items'][0]['snippet']['publishedAt']
 
@@ -94,7 +94,7 @@ for i in range(len(videoid_list)):
         title.append(tname)
         views.append(vc)
         likes.append(lc)
-        dislikes.append(dlc)
+        #dislikes.append(dlc)
         comments.append(cc)
         upload_date.append(pA)
 
